@@ -501,7 +501,7 @@
 		color: #451E8C !important;
 	}
 	.hamburger-menu-content .mail-link img {
-		filter: invert(16%) sepia(40%) saturate(4587%) hue-rotate(252deg) brightness(87%) contrast(103%);
+		filter: invert(16%) sepia(40%) saturate(4587%) hue-rotate(252deg) brightness(87%) contrast(103%) !important;
 	}
 	.hamburger-menu-content .active .lang-link {
 		opacity: 1;
@@ -860,5 +860,31 @@
 	.tg2 {
 		left: 50%;
 		top: 23px;
+	}
+	.call-form {
+		padding: 60px 0 40px 0;
+		flex-direction: column;
+	}
+	.call-inputs {
+		margin-right: 0;
+	}
+	.input-form {
+		width: 100%;
+	}
+	.custom-radio + label {
+		font-size: 14px;
+		line-height: 17px;
+		margin-right: 0;
+	}
+	.call-form .btn {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.radio-item {
+		margin-bottom: 66px;
+	}
+	.input-form {
+		font-size: 16px;
+line-height: 19px;
 	}
 }
