@@ -1,0 +1,41 @@
+nav {
+	display: block;
+	font-size: 15px;
+}
+.breadcrumb {
+	background: none;
+	margin: 0 0 60px 0;
+}
+.breadcrumb {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 0;
+	list-style: none;
+}
+.breadcrumb {
+	list-style: none;
+}
+.breadcrumb > .breadcrumb-item > a {
+
+	font-size: 14px;
+	line-height: 17px;
+	color: #8B8A8A;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+	display: inline-block;
+	position: relative;
+	content: "/";
+	margin: 0 5px;
+	color: #8B8A8A;
+}
+.breadcrumb-item.active a{
+	color: rgba(77, 88, 96, 0.5);
+}
+.breadcrumb-item:hover a {
+	color: rgba(77, 88, 96, 0.5);
+}
+.breadcrumb-item + .breadcrumb-item {
+
+}
